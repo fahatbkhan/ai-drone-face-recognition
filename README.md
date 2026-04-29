@@ -8,3 +8,20 @@ Developed an intelligent UAV system integrating AI-based facial recognition with
 - Arduino (Portenta H7)
 - Pixhawk Flight Controller
 - PX4 Autopilot
+  
+## How It Works
+1. FPV camera captures real-time video feed
+2. Raspberry Pi processes frames using OpenCV
+3. Face recognition model detects and matches faces
+4. If a match is found, a signal is sent to Arduino
+5. Arduino controls the robotic arm to deliver payload
+6. Pixhawk manages flight control and stability
+
+## Features
+- Real-time face detection using OpenCV
+- Autonomous drone navigation using Pixhawk (PX4)
+- Robotic arm for automated payload delivery
+- Integration of AI, embedded systems, and robotics
+- Real-time processing on Raspberry Pi
+
+  
